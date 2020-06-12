@@ -14,9 +14,9 @@ import time
 
 try:
 	if sys.argv[1] != '-t':
-		print("\nUse \'python3 project.py -t\' for thorough testing.")
+		print("\nUse \'python3 final_project.py -t\' for thorough testing.")
 except:
-	print("\nUse \'python3 project.py -t\' for thorough testing.")
+	print("\nUse \'python3 final_project.py -t\' for thorough testing.")
 
 
 ############
@@ -68,7 +68,7 @@ except:
 
 
 # This prints individual scan data
-.
+
 try:
 	if sys.argv[1] == '-t':
 		for dev in devices:
